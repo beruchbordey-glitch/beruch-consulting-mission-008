@@ -6,7 +6,7 @@ Cas fictif réalisé dans le cadre d'un défi data portfolio.
 
 ## À propos
 
-Beruch Consulting accompagne les entreprises et organisations dans leur transition vers une culture *data-driven*, en transformant leurs données brutes en décisions stratégiques.
+Beruch Consulting accompagne les entreprises et organisations dans leur transition vers une culture data-driven, en transformant leurs données brutes en décisions stratégiques.
 De la donnée à la décision.
 
 Chaque projet de ce portfolio est présenté sous forme de mission client : un contexte, une problématique, des analyses et des recommandations concrètes.
@@ -59,7 +59,7 @@ Une première version du modèle plafonnait à un R² de 0,59. En cause : les de
 
 | Configuration | R² (test) | Erreur moyenne (MAE) |
 | Sans les leviers | 0,591 | 0,89 t/ha |
-| Avec les leviers | 0,913** | 0,40 t/ha |
+| Avec les leviers | 0,913 | 0,40 t/ha |
 
 Enseignement : la performance d'un modèle dépend d'abord de la pertinence des variables retenues, et les données booléennes demandent une attention particulière lors de la préparation.
 
