@@ -14,7 +14,7 @@ Chaque projet de ce portfolio est présenté sous forme de mission client : un c
 
 ## Le client : AgriCo
 
-AgriCo (coopérative agritech fictive) souhaite fournir à ses agriculteurs un outil qui, d'une part, prédit le rendement attendu selon les conditions de culture, et d'autre part, identifie les leviers actionnables (engrais, irrigation) les plus efficaces pour l'améliorer — afin d'optimiser à la fois la production et l'usage des ressources.
+AgriCo (coopérative agritech fictive) souhaite fournir à ses agriculteurs un outil qui, d'une part, prédit le rendement attendu selon les conditions de culture, et d'autre part, identifie les leviers actionnables (engrais, irrigation) les plus efficaces pour l'améliorer afin d'optimiser à la fois la production et l'usage des ressources.
 
 ## Problématique
 
@@ -75,8 +75,8 @@ Le modèle retenu est la régression linéaire : performance équivalente au Ran
 
 Les coefficients (lus en unités réelles) confirment l'exploration :
 - Pluie : coefficient faible par mm (~0,005) mais dominant par son amplitude (0 à 1 000 mm). Facteur n°1, mais subi.
-- Engrais** : +1,5 t/ha (levier actionnable le plus puissant).
-- Irrigation** : +1,2 t/ha (deuxième levier).
+- Engrais : +1,5 t/ha (levier actionnable le plus puissant).
+- Irrigation : +1,2 t/ha (deuxième levier).
 - Sol, culture, région, condition météo, durée : coefficients quasi nuls, aucun effet notable.
 
 Les leviers étant codés 0/1, leur coefficient se lit directement comme le gain de rendement associé.
@@ -102,7 +102,6 @@ Une fonction predire_rendement() prend les conditions d'une parcelle et les choi
 
 ## Contenu du dépôt
 
-```
 beruch-consulting-mission-008/
 ├── README.md                          ce fichier
 ├── mission_008_AgriCo.ipynb            le notebook (exploration → modèle → outil de prédiction)
@@ -114,6 +113,5 @@ beruch-consulting-mission-008/
 Beruch Ibala
 Projet réalisé dans le cadre d'un défi data portfolio (30 jours).
 
----
 
 Données : jeu de données public de rendements agricoles. Cas client fictif à but pédagogique.
